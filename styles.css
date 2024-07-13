@@ -1,0 +1,29 @@
+body {
+    background-color: #121212;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.score {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.click-image {
+    width: 80%;
+    max-width: 300px;
+    transition: transform 0.1s;
+}
+
+.click-image:active {
+    transform: scale(0.9);
+}
